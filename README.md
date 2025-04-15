@@ -1,12 +1,37 @@
-# React + Vite
+# A1 News App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NewsApp is a React-based web application that allows users to search for and view the latest news articles. It uses the [NewsAPI](https://newsapi.org/) to fetch news data and displays it in a clean, responsive user interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Search News**: Users can search for news articles by entering keywords in the search bar.
+- **Category Buttons**: Quick access to news categories like Sports, Politics, Entertainment, Health, and Fitness.
+- **Dynamic News Cards**: Displays news articles with images, titles, descriptions, and a "Read More" button to open the full article.
+- **Trending News Section**: Highlights trending news articles.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- **Frontend**: React, JSX, CSS (with Sass for styling)
+- **API**: [NewsAPI](https://newsapi.org/)
+- **Build Tool**: Vite
+- **Styling**: Custom CSS with fully resposive design
+
+---
+
+## Installation
+
+### Prerequisites
+
+- Node.js (v16 or later)
+- npm or yarn
+
+### Steps
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/a1-news-app.git
+   cd NewsApp
